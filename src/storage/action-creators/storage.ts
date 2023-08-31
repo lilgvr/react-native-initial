@@ -13,3 +13,7 @@ export const StorageSet = (payload: StoragePayload): StorageAction => ({
   type: StorageActionType.SET,
   payload,
 });
+
+export const StorageClear = (): StorageAction => ({
+  type: StorageActionType.CLEAR,
+});
